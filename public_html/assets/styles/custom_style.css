@@ -1,0 +1,39 @@
+body{
+    margin:20px;
+    padding:20px;
+    background: #861477;
+}
+
+.description{
+    color:#fff !important;
+}
+
+.hide-on-l{
+    display:none !important;
+}
+
+.hide-on-m{
+    display: inline-block !important;
+}
+
+.nav-taps{
+    margin-top:50px;
+    height: 100vh;
+    background-color: rgba(32, 46, 100, 0.3) !important;
+}
+
+@media screen and (max-width:800px){
+    body{
+        margin:5px;
+        padding:10px;
+
+    }
+
+    .hide-on-m{
+        display: none !important;
+    }
+
+    .hide-on-l{
+        display: inline-flex !important;
+    }
+}
